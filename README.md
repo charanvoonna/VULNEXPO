@@ -94,11 +94,15 @@ VULNEXPO/
 
 ### Setup
 
-git clone https://github.com/charanvoonna/VULNEXPO
-cd VULNEXPO
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+-->git clone https://github.com/charanvoonna/VULNEXPO
+
+  -->cd VULNEXPO
+
+-->python3 -m venv venv
+
+-->source venv/bin/activate
+
+-->pip install -r requirements.txt
 
 
 
@@ -110,10 +114,16 @@ pip install -r requirements.txt
 Basic Workflow
 
 1 . Select network mode (VPN / Tor / None)
+
 2 . Run Vulnerability Detection
+
 3 . Review exploit candidates
+
 4 . Select exploit
+
 5 . Execute LIVE exploitation (authorized labs only)
+
+
 
 
 🔍 Vulnerability Detection :
@@ -126,6 +136,8 @@ Basic Workflow
 
 --> run
 
+
+
 💣 Exploit Mapping:
 
 --> use exploit
@@ -135,6 +147,8 @@ Basic Workflow
 --> select <id>
 
 --> show selected
+
+
 
 
  🔐 VPN Support :
