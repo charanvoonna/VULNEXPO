@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 <p align="center">
-  <img src="assets/vulnexpo.png" alt="VULNEXPO Banner" width="800">
+ <img src="assets/vulnexpo.png" alt="VULNEXPO Banner" width="800">
 </p>
 
 > **“Detect the weakness. Exploit the reality.”**
