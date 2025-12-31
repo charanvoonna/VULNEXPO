@@ -1,0 +1,6 @@
+{
+  "target": "198.168.64.128",
+  "aggressive": true,
+  "services": [],
+  "cve_candidates": []
+}

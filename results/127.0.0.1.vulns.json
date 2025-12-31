@@ -1,0 +1,6 @@
+{
+  "target": "127.0.0.1",
+  "aggressive": false,
+  "services": [],
+  "cve_candidates": []
+}

@@ -1,0 +1,19 @@
+app:
+  name: VULNEXPO
+  version: "0.1"
+
+metasploit:
+  host: 127.0.0.1
+  port: 55552
+  user: msfuser
+  pass: msfpass
+
+network:
+  default_proxy: ""
+  use_openvpn: false
+
+io:
+  results_dir: results
+  sessions_dir: sessions
+  reports_dir: reports
+  logs_dir: logs

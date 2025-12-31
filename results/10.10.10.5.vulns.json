@@ -1,0 +1,24 @@
+{
+  "target": "10.10.10.5",
+  "scan_time": "SIMULATED",
+  "services": [
+    {
+      "port": 80,
+      "service": "http",
+      "version": "Apache 2.4.49"
+    },
+    {
+      "port": 22,
+      "service": "ssh",
+      "version": "OpenSSH 7.6"
+    }
+  ],
+  "candidates": [
+    {
+      "module": "exploit/http/apache_rce",
+      "cve": "CVE-2021-XXXX",
+      "confidence": "high",
+      "port": 80
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "target": "192.168.64.128",
+  "aggressive": false,
+  "services": [
+    {
+      "port": 21,
+      "proto": "tcp",
+      "state": "open",
+      "service": "ftp",
+      "version": "vsftpd 2.3.4",
+      "version_parsed": "vsftpd 2.3.4"
+    },
+    {
+      "port": 22,
+      "proto": "tcp",
+      "state": "open",
+      "service": "ssh",
+      "version": "OpenSSH 4.7p1 Debian 8ubuntu1 (protocol 2.0)",
+      "version_parsed": "OpenSSH 4.7p1 Debian 8ubuntu1 (protocol 2.0)"
+    },
+    {
+      "port": 23,
+      "proto": "tcp",
+      "state": "open",
+      "service": "telnet",
+      "version": "Linux telnetd",
+      "version_parsed": "Linux telnetd"
+    },
+    {
+      "port": 25,
+      "proto": "tcp",
+      "state": "open",
+      "service": "smtp",
+      "version": "Postfix smtpd",
+      "version_parsed": "Postfix smtpd"
+    },
+    {
+      "port": 53,
+      "proto": "tcp",
+      "state": "open",
+      "service": "domain",
+      "version": "ISC BIND 9.4.2",
+      "version_parsed": "ISC BIND 9.4.2"
+    },
+    {
+      "port": 80,
+      "proto": "tcp",
+      "state": "open",
+      "service": "http",
+      "version": "Apache httpd 2.2.8 ((Ubuntu) DAV/2)",
+      "version_parsed": "Apache httpd 2.2.8 ((Ubuntu) DAV/2)"
+    },
+    {
+      "port": 111,
+      "proto": "tcp",
+      "state": "open",
+      "service": "rpcbind",
+      "version": "2 (RPC #100000)",
+      "version_parsed": "2 (RPC #100000)"
+    },
+    {
+      "port": 139,
+      "proto": "tcp",
+      "state": "open",
+      "service": "netbios-ssn",
+      "version": "Samba smbd 3.X - 4.X (workgroup: WORKGROUP)",
+      "version_parsed": "Samba smbd 3.X - 4.X (workgroup: WORKGROUP)"
+    },
+    {
+      "port": 445,
+      "proto": "tcp",
+      "state": "open",
+      "service": "netbios-ssn",
+      "version": "Samba smbd 3.X - 4.X (workgroup: WORKGROUP)",
+      "version_parsed": "Samba smbd 3.X - 4.X (workgroup: WORKGROUP)"
+    },
+    {
+      "port": 512,
+      "proto": "tcp",
+      "state": "open",
+      "service": "exec",
+      "version": "netkit-rsh rexecd",
+      "version_parsed": "netkit-rsh rexecd"
+    },
+    {
+      "port": 513,
+      "proto": "tcp",
+      "state": "open",
+      "service": "login?",
+      "version": "",
+      "version_parsed": ""
+    },
+    {
+      "port": 514,
+      "proto": "tcp",
+      "state": "open",
+      "service": "tcpwrapped",
+      "version": "",
+      "version_parsed": ""
+    },
+    {
+      "port": 1099,
+      "proto": "tcp",
+      "state": "open",
+      "service": "java-rmi",
+      "version": "GNU Classpath grmiregistry",
+      "version_parsed": "GNU Classpath grmiregistry"
+    },
+    {
+      "port": 1524,
+      "proto": "tcp",
+      "state": "open",
+      "service": "bindshell",
+      "version": "Metasploitable root shell",
+      "version_parsed": "Metasploitable root shell"
+    },
+    {
+      "port": 2049,
+      "proto": "tcp",
+      "state": "open",
+      "service": "nfs",
+      "version": "2-4 (RPC #100003)",
+      "version_parsed": "2-4 (RPC #100003)"
+    },
+    {
+      "port": 2121,
+      "proto": "tcp",
+      "state": "open",
+      "service": "ftp",
+      "version": "ProFTPD 1.3.1",
+      "version_parsed": "ProFTPD 1.3.1"
+    },
+    {
+      "port": 3306,
+      "proto": "tcp",
+      "state": "open",
+      "service": "mysql",
+      "version": "MySQL 5.0.51a-3ubuntu5",
+      "version_parsed": "MySQL 5.0.51a-3ubuntu5"
+    },
+    {
+      "port": 5432,
+      "proto": "tcp",
+      "state": "open",
+      "service": "postgresql",
+      "version": "PostgreSQL DB 8.3.0 - 8.3.7",
+      "version_parsed": "PostgreSQL DB 8.3.0 - 8.3.7"
+    },
+    {
+      "port": 5900,
+      "proto": "tcp",
+      "state": "open",
+      "service": "vnc",
+      "version": "VNC (protocol 3.3)",
+      "version_parsed": "VNC (protocol 3.3)"
+    },
+    {
+      "port": 6000,
+      "proto": "tcp",
+      "state": "open",
+      "service": "X11",
+      "version": "(access denied)",
+      "version_parsed": "(access denied)"
+    },
+    {
+      "port": 6667,
+      "proto": "tcp",
+      "state": "open",
+      "service": "irc",
+      "version": "UnrealIRCd",
+      "version_parsed": "UnrealIRCd"
+    },
+    {
+      "port": 8009,
+      "proto": "tcp",
+      "state": "open",
+      "service": "ajp13",
+      "version": "Apache Jserv (Protocol v1.3)",
+      "version_parsed": "Apache Jserv (Protocol v1.3)"
+    },
+    {
+      "port": 8180,
+      "proto": "tcp",
+      "state": "open",
+      "service": "http",
+      "version": "Apache Tomcat/Coyote JSP engine 1.1",
+      "version_parsed": "Apache Tomcat/Coyote JSP engine 1.1"
+    }
+  ],
+  "cve_candidates": []
+}
