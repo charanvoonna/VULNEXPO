@@ -94,7 +94,7 @@ VULNEXPO/
 
 ### Setup
 
-git clone https://github.com/<your-username>/VULNEXPO.git
+git clone https://github.com/charanvoonna/VULNEXPO
 cd VULNEXPO
 python3 -m venv venv
 source venv/bin/activate
@@ -116,23 +116,33 @@ Basic Workflow
 5 . Execute LIVE exploitation (authorized labs only)
 
 
-🔍 Vulnerability Detection
+🔍 Vulnerability Detection :
+
 --> use VD
+
 --> set TARGET <IP>
+
 --> set LIVE true
+
 --> run
 
-💣 Exploit Mapping
+💣 Exploit Mapping:
+
 --> use exploit
+
 --> show candidates
+
 --> select <id>
+
 --> show selected
 
 
  🔐 VPN Support :
 
 --> OpenVPN support available
+
 --> User-supplied .ovpn configuration required
+
 --> proxy VPN support also avaiable (PROXY)
 
 
@@ -140,28 +150,31 @@ Basic Workflow
 🧪 Tested Environments
 
     --> Kali Linux
-    --> Metasploitable2
-         && Authorized local lab networks only
+    --> Metasploitable2 && Authorized local lab networks only
 
 
 ⚠️ Legal & Ethical Warning
 
-This tool is for EDUCATIONAL and AUTHORIZED LAB USE ONLY.
-Running VULNEXPO against systems you do not own or have permission to test is illegal.
+    This tool is for EDUCATIONAL and AUTHORIZED LAB USE ONLY.
+     Running VULNEXPO against systems you do not own or have permission to test is illegal.
+        *The author takes no responsibility for misuse.
 
-   The author takes no responsibility for misuse.
 
-
- 🧭 Roadmap
+ 🧭 Roadmap:
 
    --> Payload auto-selection
+   
    --> Session management
+   
    --> Post-exploitation modules
+   
    --> Report generation (HTML/PDF)
+   
    --> CVE auto-update engine
 
 
-👨‍💻 Author
+👨‍💻 Author:
+
   CHARAN VOONNA 
   Cybersecurity | Exploitation | VAPT |
   
